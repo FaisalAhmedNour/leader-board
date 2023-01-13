@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+/* header */
+.header {
+    background-color: #562EFF;
+    padding: 20px;
+}
+
+.header-nav {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 42px;
+}
+
+.header-items {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+}
+
+.header-items > a {
+    text-decoration: none;
+    color: white;
+}
