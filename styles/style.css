@@ -1,5 +1,15 @@
 * {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F3F1FF;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 20px 0;
 }
 
 /* header */
@@ -8,9 +18,12 @@
     padding: 20px;
 }
 
-.header-nav {
+.section {
     width: 60%;
     margin: 0 auto;
+}
+
+.header-nav {
     display: flex;
     justify-content: space-between;
 }
@@ -26,7 +39,126 @@
     color: white;
 }
 
-.header-items > a {
+.header-items>a {
     text-decoration: none;
     color: white;
+}
+
+/* main */
+/* Players */
+.heading {
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.player-blog {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 3em;
+}
+
+.top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player-data {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.player-data>img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.player-data {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* blog */
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog-items {
+    /* width: 50%; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.blog-items>img {
+    width: 50%;
+}
+
+.blog-para {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.blog-writer {
+    font-weight: 450;
+    color: #562EFF;
+}
+
+.by {
+    color: aquamarine;
+}
+
+/* Latest course */
+.course {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 3em;
+}
+
+.course-items {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.class {
+    flex: 1;
+}
+
+.class>img {
+    width: 100%;
+}
+
+.course-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.course-writer {
+    color: #ED6B4F;
+}
+
+/* for Tablet */
+
+/* for Phone */
+.header-nav {
+    display: grid;
+}
+
+.header-items {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.profile {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
 }
