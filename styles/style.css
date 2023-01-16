@@ -200,6 +200,21 @@ hr {
         flex-direction: column;
         gap: 50px;
     }
+
+    .class {
+        display: flex;
+        gap: 20px;
+    }
+
+    .class>img {
+        width: 50%;
+    }
+
+    .rating-time {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 
@@ -208,6 +223,12 @@ hr {
 @media screen and (max-width: 576px) {
     .section {
         width: 90%;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 
     .top-players {
